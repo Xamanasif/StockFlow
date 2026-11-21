@@ -1,0 +1,112 @@
+C:\Users\zaman asif\anaconda3\Lib\site-packages\fastapi\testclient.py:1: StarletteDeprecationWarning: Using `httpx` with `starlette.testclient` is deprecated; install `httpx2` instead.
+  from starlette.testclient import TestClient as TestClient  # noqa
+test_arrival_conservation_and_terminal (test_completion.DecisionTests.test_arrival_conservation_and_terminal) ... ok
+test_capacity_and_nonfinite (test_completion.DecisionTests.test_capacity_and_nonfinite) ... ok
+test_common_random_sequences (test_completion.DecisionTests.test_common_random_sequences) ... ok
+test_milp_matches_bruteforce (test_completion.DecisionTests.test_milp_matches_bruteforce) ... ok
+test_solver_failure_feasible_fallback (test_completion.DecisionTests.test_solver_failure_feasible_fallback) ... ok
+test_zero_proxy_denominator (test_completion.DecisionTests.test_zero_proxy_denominator) ... ok
+test_csv_roundtrip_and_explicit_consent (test_completion.ImportTests.test_csv_roundtrip_and_explicit_consent) ... ok
+test_failed_publish_not_registered (test_completion.ImportTests.test_failed_publish_not_registered) ... ok
+test_quarantine_accounting_and_private_fields (test_completion.ImportTests.test_quarantine_accounting_and_private_fields) ... ok
+test_xlsx_all_sheets (test_completion.ImportTests.test_xlsx_all_sheets) ... ok
+test_all_methods_ignore_future_and_refit_local_scaler (test_completion.ResearchTests.test_all_methods_ignore_future_and_refit_local_scaler) ... ok
+test_final_actuals_do_not_change_development (test_completion.ResearchTests.test_final_actuals_do_not_change_development) ... ok
+test_final_guard_blocks_repeat_before_evaluation (test_completion.ResearchTests.test_final_guard_blocks_repeat_before_evaluation) ... ok
+test_intermittent_zero_forecasts_finite (test_completion.ResearchTests.test_intermittent_zero_forecasts_finite) ... ok
+test_metrics_zero_denominator (test_completion.ResearchTests.test_metrics_zero_denominator) ... ok
+test_uncertainty_edges (test_completion.ResearchTests.test_uncertainty_edges) ... ok
+test_unseen_and_short_history_fail (test_completion.ResearchTests.test_unseen_and_short_history_fail) ... ok
+test_concurrent_confirmation (test_completion.WorkflowTests.test_concurrent_confirmation) ... {"request_id": "966658cf-3fc4-463e-8cc3-d2493886c767", "run_id": null, "route": "/api/plans", "duration_ms": 41, "status": 200, "code_version": "1.0.0", "method_version": "weekday_mean-v1; replay-v1", "dataset_sha256": "ff61a518220f4241cee5ab1c5f801958087b1883da83e3428e7a982b59aa1118", "error_category": null}
+{"request_id": "03a0a0b5-2309-44a7-bc73-017ead0e0d63", "run_id": "86fbba7b-a1fa-4371-8175-f16d79355f03", "route": "/api/plans/{run_id}/review", "duration_ms": 21, "status": 200, "code_version": "1.0.0", "method_version": "weekday_mean-v1; replay-v1", "dataset_sha256": "ff61a518220f4241cee5ab1c5f801958087b1883da83e3428e7a982b59aa1118", "error_category": null}
+{"request_id": "52d900ec-5470-4c6f-92d9-ce463ef1b031", "run_id": null, "route": "/api/confirm", "duration_ms": 26, "status": 200, "code_version": "1.0.0", "method_version": "weekday_mean-v1; replay-v1", "dataset_sha256": "ff61a518220f4241cee5ab1c5f801958087b1883da83e3428e7a982b59aa1118", "error_category": null}
+{"request_id": "c745b4af-cd5c-4b84-9018-ade2a8c125a3", "run_id": null, "route": "/api/confirm", "duration_ms": 39, "status": 409, "code_version": "1.0.0", "method_version": "weekday_mean-v1; replay-v1", "dataset_sha256": "ff61a518220f4241cee5ab1c5f801958087b1883da83e3428e7a982b59aa1118", "error_category": "client_error"}
+ok
+test_concurrent_idempotent_save (test_completion.WorkflowTests.test_concurrent_idempotent_save) ... {"request_id": "7c89885f-2fa6-4867-b2d0-3923444da723", "run_id": null, "route": "/api/plans", "duration_ms": 39, "status": 200, "code_version": "1.0.0", "method_version": "weekday_mean-v1; replay-v1", "dataset_sha256": "ff61a518220f4241cee5ab1c5f801958087b1883da83e3428e7a982b59aa1118", "error_category": null}
+{"request_id": "56130056-7be1-4e08-9656-fd36234ae4f4", "run_id": null, "route": "/api/plans", "duration_ms": 40, "status": 200, "code_version": "1.0.0", "method_version": "weekday_mean-v1; replay-v1", "dataset_sha256": "ff61a518220f4241cee5ab1c5f801958087b1883da83e3428e7a982b59aa1118", "error_category": null}
+{"request_id": "0382b679-af2e-4b8b-ad3a-45ed4f343208", "run_id": null, "route": "/api/plans", "duration_ms": 58, "status": 200, "code_version": "1.0.0", "method_version": "weekday_mean-v1; replay-v1", "dataset_sha256": "ff61a518220f4241cee5ab1c5f801958087b1883da83e3428e7a982b59aa1118", "error_category": null}
+{"request_id": "2a2c46ec-1d4f-4931-a985-2582fa310904", "run_id": null, "route": "/api/plans", "duration_ms": 20, "status": 409, "code_version": "1.0.0", "method_version": "weekday_mean-v1; replay-v1", "dataset_sha256": "ff61a518220f4241cee5ab1c5f801958087b1883da83e3428e7a982b59aa1118", "error_category": "client_error"}
+ok
+test_confirm_exact_once (test_completion.WorkflowTests.test_confirm_exact_once) ... {"request_id": "22010dfd-15ee-4642-a350-9a3786b48792", "run_id": null, "route": "/api/plans", "duration_ms": 64, "status": 200, "code_version": "1.0.0", "method_version": "weekday_mean-v1; replay-v1", "dataset_sha256": "ff61a518220f4241cee5ab1c5f801958087b1883da83e3428e7a982b59aa1118", "error_category": null}
+{"request_id": "d7d36a4f-0887-4b26-8fec-d97a0b1ea6ce", "run_id": "ff167c7d-9cf3-4a33-9cd8-e198b06bb1da", "route": "/api/plans/{run_id}/review", "duration_ms": 16, "status": 200, "code_version": "1.0.0", "method_version": "weekday_mean-v1; replay-v1", "dataset_sha256": "ff61a518220f4241cee5ab1c5f801958087b1883da83e3428e7a982b59aa1118", "error_category": null}
+{"request_id": "8ad044c4-9cec-40d1-8b0a-cc7e571a3a7f", "run_id": null, "route": "/api/confirm", "duration_ms": 10, "status": 200, "code_version": "1.0.0", "method_version": "weekday_mean-v1; replay-v1", "dataset_sha256": "ff61a518220f4241cee5ab1c5f801958087b1883da83e3428e7a982b59aa1118", "error_category": null}
+{"request_id": "fe8aa6c0-106c-43b1-b04e-99bd1ce844e9", "run_id": null, "route": "/api/confirm", "duration_ms": 6, "status": 409, "code_version": "1.0.0", "method_version": "weekday_mean-v1; replay-v1", "dataset_sha256": "ff61a518220f4241cee5ab1c5f801958087b1883da83e3428e7a982b59aa1118", "error_category": "client_error"}
+ok
+test_expired_and_wrong_version_rejected (test_completion.WorkflowTests.test_expired_and_wrong_version_rejected) ... {"request_id": "b74fb067-4a23-42da-aaa5-313058478e2f", "run_id": null, "route": "/api/plans", "duration_ms": 38, "status": 200, "code_version": "1.0.0", "method_version": "weekday_mean-v1; replay-v1", "dataset_sha256": "ff61a518220f4241cee5ab1c5f801958087b1883da83e3428e7a982b59aa1118", "error_category": null}
+{"request_id": "5eb9bbb0-84f9-4ff9-9415-c89cb9f7e083", "run_id": "cb499479-8a44-4eed-b6cd-429b3dd0e052", "route": "/api/plans/{run_id}/review", "duration_ms": 16, "status": 200, "code_version": "1.0.0", "method_version": "weekday_mean-v1; replay-v1", "dataset_sha256": "ff61a518220f4241cee5ab1c5f801958087b1883da83e3428e7a982b59aa1118", "error_category": null}
+{"request_id": "c6145da8-8650-42cf-a64f-f462a035db0c", "run_id": null, "route": "/api/confirm", "duration_ms": 9, "status": 409, "code_version": "1.0.0", "method_version": "weekday_mean-v1; replay-v1", "dataset_sha256": "ff61a518220f4241cee5ab1c5f801958087b1883da83e3428e7a982b59aa1118", "error_category": "client_error"}
+{"request_id": "ae286811-10c6-42ad-ba38-08aa7931f053", "run_id": null, "route": "/api/confirm", "duration_ms": 7, "status": 409, "code_version": "1.0.0", "method_version": "weekday_mean-v1; replay-v1", "dataset_sha256": "ff61a518220f4241cee5ab1c5f801958087b1883da83e3428e7a982b59aa1118", "error_category": "client_error"}
+ok
+test_exports_and_readiness (test_completion.WorkflowTests.test_exports_and_readiness) ... {"request_id": "9a305095-17c2-43d0-8b29-23754c19944c", "run_id": null, "route": "/api/plans", "duration_ms": 35, "status": 200, "code_version": "1.0.0", "method_version": "weekday_mean-v1; replay-v1", "dataset_sha256": "ff61a518220f4241cee5ab1c5f801958087b1883da83e3428e7a982b59aa1118", "error_category": null}
+{"request_id": "b35dcec3-7bce-4cbc-926e-0cd1c94199b4", "run_id": null, "route": "/api/ready", "duration_ms": 9, "status": 200, "code_version": "1.0.0", "method_version": "weekday_mean-v1; replay-v1", "dataset_sha256": "ff61a518220f4241cee5ab1c5f801958087b1883da83e3428e7a982b59aa1118", "error_category": null}
+{"request_id": "d497ab35-36f3-4fe9-998f-eaf3032a8011", "run_id": "f869ac62-2a61-4eaa-af1a-8e5044ff5aeb", "route": "/api/plans/{run_id}/export", "duration_ms": 8, "status": 200, "code_version": "1.0.0", "method_version": "weekday_mean-v1; replay-v1", "dataset_sha256": "ff61a518220f4241cee5ab1c5f801958087b1883da83e3428e7a982b59aa1118", "error_category": null}
+{"request_id": "b6754fcc-73e7-42f3-92e8-6d3e953a1b53", "run_id": "f869ac62-2a61-4eaa-af1a-8e5044ff5aeb", "route": "/api/plans/{run_id}/export", "duration_ms": 7, "status": 200, "code_version": "1.0.0", "method_version": "weekday_mean-v1; replay-v1", "dataset_sha256": "ff61a518220f4241cee5ab1c5f801958087b1883da83e3428e7a982b59aa1118", "error_category": null}
+{"request_id": "97357a55-bdd4-45db-b18c-82866b25c211", "run_id": "f869ac62-2a61-4eaa-af1a-8e5044ff5aeb", "route": "/api/plans/{run_id}/export", "duration_ms": 10, "status": 200, "code_version": "1.0.0", "method_version": "weekday_mean-v1; replay-v1", "dataset_sha256": "ff61a518220f4241cee5ab1c5f801958087b1883da83e3428e7a982b59aa1118", "error_category": null}
+ok
+test_offline_grounding_and_prompt_injection (test_completion.WorkflowTests.test_offline_grounding_and_prompt_injection) ... {"request_id": "cf4efc4d-5379-494b-884c-fc50e07779f7", "run_id": null, "route": "/api/plans", "duration_ms": 42, "status": 200, "code_version": "1.0.0", "method_version": "weekday_mean-v1; replay-v1", "dataset_sha256": "ff61a518220f4241cee5ab1c5f801958087b1883da83e3428e7a982b59aa1118", "error_category": null}
+ok
+test_provider_invalid_claims_are_not_rendered (test_completion.WorkflowTests.test_provider_invalid_claims_are_not_rendered) ... {"request_id": "5814f51d-1b89-4634-8e14-06b06dbe8c3d", "run_id": null, "route": "/api/plans", "duration_ms": 41, "status": 200, "code_version": "1.0.0", "method_version": "weekday_mean-v1; replay-v1", "dataset_sha256": "ff61a518220f4241cee5ab1c5f801958087b1883da83e3428e7a982b59aa1118", "error_category": null}
+ok
+test_provider_mock_success_and_invalid_claim (test_completion.WorkflowTests.test_provider_mock_success_and_invalid_claim) ... {"request_id": "751b6173-5a19-4173-b4f3-03b367cbef7c", "run_id": null, "route": "/api/plans", "duration_ms": 44, "status": 200, "code_version": "1.0.0", "method_version": "weekday_mean-v1; replay-v1", "dataset_sha256": "ff61a518220f4241cee5ab1c5f801958087b1883da83e3428e7a982b59aa1118", "error_category": null}
+ok
+test_provider_rate_limit_fallback (test_completion.WorkflowTests.test_provider_rate_limit_fallback) ... {"request_id": "71d26f38-2475-4d6a-b249-5cb0df4465c7", "run_id": null, "route": "/api/plans", "duration_ms": 41, "status": 200, "code_version": "1.0.0", "method_version": "weekday_mean-v1; replay-v1", "dataset_sha256": "ff61a518220f4241cee5ab1c5f801958087b1883da83e3428e7a982b59aa1118", "error_category": null}
+ok
+test_registry_response_retains_totals_without_full_workbook_product_dump (test_completion.WorkflowTests.test_registry_response_retains_totals_without_full_workbook_product_dump) ... {"request_id": "4a7951b3-cf4c-4b18-8ff7-32a1a945660e", "run_id": null, "route": "/api/plans", "duration_ms": 40, "status": 200, "code_version": "1.0.0", "method_version": "weekday_mean-v1; replay-v1", "dataset_sha256": "ff61a518220f4241cee5ab1c5f801958087b1883da83e3428e7a982b59aa1118", "error_category": null}
+{"request_id": "c157d3e9-fbcc-4cd8-95a4-950fac8707ba", "run_id": null, "route": "/api/datasets", "duration_ms": 11, "status": 200, "code_version": "1.0.0", "method_version": "weekday_mean-v1; replay-v1", "dataset_sha256": "ff61a518220f4241cee5ab1c5f801958087b1883da83e3428e7a982b59aa1118", "error_category": null}
+ok
+test_security_boundaries (test_completion.WorkflowTests.test_security_boundaries) ... {"request_id": "937141d5-b17b-4720-8f97-b9db58f8fd97", "run_id": null, "route": "/api/plans", "duration_ms": 49, "status": 200, "code_version": "1.0.0", "method_version": "weekday_mean-v1; replay-v1", "dataset_sha256": "ff61a518220f4241cee5ab1c5f801958087b1883da83e3428e7a982b59aa1118", "error_category": null}
+{"request_id": "c53ab1af-e506-46e2-b284-18e1764f79bf", "run_id": null, "route": "/api/{unknown:path}", "duration_ms": 2, "status": 404, "code_version": "1.0.0", "method_version": "weekday_mean-v1; replay-v1", "dataset_sha256": "ff61a518220f4241cee5ab1c5f801958087b1883da83e3428e7a982b59aa1118", "error_category": "client_error"}
+{"request_id": "9b237e1c-e759-4f30-aa5c-0c4d7bdb1542", "run_id": null, "route": "static", "duration_ms": 3, "status": 404, "code_version": "1.0.0", "method_version": "weekday_mean-v1; replay-v1", "dataset_sha256": "ff61a518220f4241cee5ab1c5f801958087b1883da83e3428e7a982b59aa1118", "error_category": "client_error"}
+{"request_id": "c651c150-6cb3-4a56-9134-bb01ddf54210", "run_id": null, "route": "/api/compare", "duration_ms": 11, "status": 422, "code_version": "1.0.0", "method_version": "weekday_mean-v1; replay-v1", "dataset_sha256": "ff61a518220f4241cee5ab1c5f801958087b1883da83e3428e7a982b59aa1118", "error_category": "client_error"}
+{"request_id": "a24eb1ef-013d-4ccf-92d0-81be68ccaa95", "run_id": null, "route": "/api/forecast/{sku}", "duration_ms": 3, "status": 404, "code_version": "1.0.0", "method_version": "weekday_mean-v1; replay-v1", "dataset_sha256": "ff61a518220f4241cee5ab1c5f801958087b1883da83e3428e7a982b59aa1118", "error_category": "client_error"}
+ok
+test_snapshot_tamper_rejected (test_completion.WorkflowTests.test_snapshot_tamper_rejected) ... {"request_id": "e601cdec-9c33-4b9b-8ce5-6f798fadfa6c", "run_id": null, "route": "/api/plans", "duration_ms": 37, "status": 200, "code_version": "1.0.0", "method_version": "weekday_mean-v1; replay-v1", "dataset_sha256": "ff61a518220f4241cee5ab1c5f801958087b1883da83e3428e7a982b59aa1118", "error_category": null}
+{"request_id": "0286d91b-b9b5-4fdd-9c2d-c04d3b774ae4", "run_id": "da72289a-55b2-4893-b96f-d5afeeabf47f", "route": "/api/plans/{run_id}/review", "duration_ms": 15, "status": 200, "code_version": "1.0.0", "method_version": "weekday_mean-v1; replay-v1", "dataset_sha256": "ff61a518220f4241cee5ab1c5f801958087b1883da83e3428e7a982b59aa1118", "error_category": null}
+{"request_id": "35091133-9be6-4486-a123-89a3256130a9", "run_id": null, "route": "/api/confirm", "duration_ms": 8, "status": 409, "code_version": "1.0.0", "method_version": "weekday_mean-v1; replay-v1", "dataset_sha256": "ff61a518220f4241cee5ab1c5f801958087b1883da83e3428e7a982b59aa1118", "error_category": "client_error"}
+ok
+test_stale_and_contradictory_records (test_completion.WorkflowTests.test_stale_and_contradictory_records) ... {"request_id": "8565b252-4720-4852-bf79-fd5d1b00d236", "run_id": null, "route": "/api/plans", "duration_ms": 38, "status": 200, "code_version": "1.0.0", "method_version": "weekday_mean-v1; replay-v1", "dataset_sha256": "ff61a518220f4241cee5ab1c5f801958087b1883da83e3428e7a982b59aa1118", "error_category": null}
+ok
+test_stale_assumptions_rejected (test_completion.WorkflowTests.test_stale_assumptions_rejected) ... {"request_id": "cc552e9c-39f2-4f07-b685-cc9d1da885f5", "run_id": null, "route": "/api/plans", "duration_ms": 39, "status": 200, "code_version": "1.0.0", "method_version": "weekday_mean-v1; replay-v1", "dataset_sha256": "ff61a518220f4241cee5ab1c5f801958087b1883da83e3428e7a982b59aa1118", "error_category": null}
+{"request_id": "236adde6-3335-4904-84f7-d005d81eb98d", "run_id": "bceed867-4f59-4661-b556-e473b7383861", "route": "/api/plans/{run_id}/review", "duration_ms": 17, "status": 200, "code_version": "1.0.0", "method_version": "weekday_mean-v1; replay-v1", "dataset_sha256": "ff61a518220f4241cee5ab1c5f801958087b1883da83e3428e7a982b59aa1118", "error_category": null}
+{"request_id": "ff1a3836-56e4-4da7-81c4-3020f43d5cbc", "run_id": null, "route": "/api/assumptions", "duration_ms": 12, "status": 200, "code_version": "1.0.0", "method_version": "weekday_mean-v1; replay-v1", "dataset_sha256": "ff61a518220f4241cee5ab1c5f801958087b1883da83e3428e7a982b59aa1118", "error_category": null}
+{"request_id": "37ed64bc-c712-4b30-8e88-60357e7da7db", "run_id": null, "route": "/api/confirm", "duration_ms": 7, "status": 409, "code_version": "1.0.0", "method_version": "weekday_mean-v1; replay-v1", "dataset_sha256": "ff61a518220f4241cee5ab1c5f801958087b1883da83e3428e7a982b59aa1118", "error_category": "client_error"}
+ok
+test_dashboard (test_foundation.ApiTests.test_dashboard) ... {"request_id": "106676bf-d37c-4b93-aa4c-c83f9d5b21c0", "run_id": null, "route": "static", "duration_ms": 3, "status": 200, "code_version": "1.0.0", "method_version": "weekday_mean-v1; replay-v1", "dataset_sha256": "ff61a518220f4241cee5ab1c5f801958087b1883da83e3428e7a982b59aa1118", "error_category": null}
+ok
+test_health (test_foundation.ApiTests.test_health) ... {"request_id": "adf026d0-bfe3-416d-9152-d12b1ba5169e", "run_id": null, "route": "/api/health", "duration_ms": 2, "status": 200, "code_version": "1.0.0", "method_version": "weekday_mean-v1; replay-v1", "dataset_sha256": "ff61a518220f4241cee5ab1c5f801958087b1883da83e3428e7a982b59aa1118", "error_category": null}
+ok
+test_negative_budget (test_foundation.ApiTests.test_negative_budget) ... {"request_id": "6ae262cc-0299-4b55-84a0-c93bf58171fd", "run_id": null, "route": "/api/plans", "duration_ms": 1, "status": 422, "code_version": "1.0.0", "method_version": "weekday_mean-v1; replay-v1", "dataset_sha256": "ff61a518220f4241cee5ab1c5f801958087b1883da83e3428e7a982b59aa1118", "error_category": "client_error"}
+ok
+test_persist_exact_snapshot (test_foundation.ApiTests.test_persist_exact_snapshot) ... {"request_id": "ee6a0c88-7728-41d2-b0dc-dfa02df40d47", "run_id": null, "route": "/api/plans", "duration_ms": 42, "status": 200, "code_version": "1.0.0", "method_version": "weekday_mean-v1; replay-v1", "dataset_sha256": "ff61a518220f4241cee5ab1c5f801958087b1883da83e3428e7a982b59aa1118", "error_category": null}
+{"request_id": "976530a1-4e00-49d3-8a85-c6a78e3fcde0", "run_id": "a32c4ffb-c411-41fe-bff2-53682a8eb501", "route": "/api/plans/{run_id}", "duration_ms": 8, "status": 200, "code_version": "1.0.0", "method_version": "weekday_mean-v1; replay-v1", "dataset_sha256": "ff61a518220f4241cee5ab1c5f801958087b1883da83e3428e7a982b59aa1118", "error_category": null}
+ok
+test_unknown_assumptions (test_foundation.ApiTests.test_unknown_assumptions) ... {"request_id": "28caebc4-90f0-4a7f-b32b-44403b844c7d", "run_id": null, "route": "/api/plans", "duration_ms": 4, "status": 422, "code_version": "1.0.0", "method_version": "weekday_mean-v1; replay-v1", "dataset_sha256": "ff61a518220f4241cee5ab1c5f801958087b1883da83e3428e7a982b59aa1118", "error_category": "client_error"}
+ok
+test_unknown_product (test_foundation.ApiTests.test_unknown_product) ... {"request_id": "5040dccd-6fe6-4806-a558-e18685a733d8", "run_id": null, "route": "/api/forecast/{sku}", "duration_ms": 3, "status": 404, "code_version": "1.0.0", "method_version": "weekday_mean-v1; replay-v1", "dataset_sha256": "ff61a518220f4241cee5ab1c5f801958087b1883da83e3428e7a982b59aa1118", "error_category": "client_error"}
+ok
+test_cancellation_not_sales (test_foundation.DataTests.test_cancellation_not_sales) ... ok
+test_checksum_failure (test_foundation.DataTests.test_checksum_failure) ... ok
+test_demo_is_explicit (test_foundation.DataTests.test_demo_is_explicit) ... ok
+test_duplicates_flagged_not_dropped (test_foundation.DataTests.test_duplicates_flagged_not_dropped) ... ok
+test_invalid_quantity (test_foundation.DataTests.test_invalid_quantity) ... C:\Users\zaman asif\Downloads\StockFlow\StockFlow\tests\test_foundation.py:24: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value 'inf' has dtype incompatible with int64, please explicitly cast to a compatible dtype first.
+  frame = self.frame[COLUMNS].copy(); frame.loc[0,'quantity'] = float('inf')
+ok
+test_missing_column (test_foundation.DataTests.test_missing_column) ... ok
+test_null_identifiers (test_foundation.DataTests.test_null_identifiers) ... ok
+test_uci_aliases (test_foundation.DataTests.test_uci_aliases) ... ok
+test_backtests_include_two_baselines (test_foundation.ForecastTests.test_backtests_include_two_baselines) ... ok
+test_future_sales_cannot_change_past_forecast (test_foundation.ForecastTests.test_future_sales_cannot_change_past_forecast) ... ok
+test_horizon_dates (test_foundation.ForecastTests.test_horizon_dates) ... ok
+test_zero_actual_wape_is_undefined (test_foundation.ForecastTests.test_zero_actual_wape_is_undefined) ... ok
+test_budget_and_capacity (test_foundation.PlannerTests.test_budget_and_capacity) ... ok
+test_deterministic_tie (test_foundation.PlannerTests.test_deterministic_tie) ... ok
+test_duplicate_sku_rejected (test_foundation.PlannerTests.test_duplicate_sku_rejected) ... ok
+test_existing_inventory_counts (test_foundation.PlannerTests.test_existing_inventory_counts) ... ok
+test_no_overbuy_for_zero_target (test_foundation.PlannerTests.test_no_overbuy_for_zero_target) ... ok
+test_nonfinite_forecast (test_foundation.PlannerTests.test_nonfinite_forecast) ... ok
+test_zero_budget (test_foundation.PlannerTests.test_zero_budget) ... ok
+
+----------------------------------------------------------------------
+Ran 56 tests in 3.744s
+
+OK

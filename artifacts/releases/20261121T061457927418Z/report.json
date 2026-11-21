@@ -1,0 +1,93 @@
+{
+  "utc": "2026-11-21T06:15:37.534468+00:00",
+  "status": "passed",
+  "command": "python -m scripts.verify_release --require-isolated",
+  "python_executable": "C:\\Users\\zaman asif\\Downloads\\StockFlow\\StockFlow\\.venv-release-v3\\Scripts\\python.exe",
+  "python_version": "3.13.9",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "isolated_environment": true,
+  "system_site_packages_enabled": false,
+  "browser_requested": false,
+  "package_versions": {
+    "fastapi": "0.141.1",
+    "pandas": "2.3.3",
+    "numpy": "2.3.5",
+    "scikit-learn": "1.7.2",
+    "scipy": "1.16.3",
+    "pydantic": "2.12.4",
+    "playwright": "1.65.2",
+    "ruff": "0.12.0"
+  },
+  "requirements_sha256": "6f38fa32bf3718eead1ce244b4b8a33904c11a1f67eed95c01fd3ff0e2679049",
+  "code_sha256": "5c4afc549790208e653d904e68ce8fde4e6d98417a25ca583bed256a71997530",
+  "source_unchanged": true,
+  "protected_before": {
+    "artifacts\\real-final.json": "be6510d088b2ed846b6a7e80dd8859b115b91ef486c59c4757d78e0d93b3ccf1",
+    "artifacts\\exploratory-robustness.json": "390830adb41507591b32a5267d887d1fe958412ee1e6b93ca900a93b89efeaca",
+    "artifacts\\FINAL-41259bd28053720781875d0c8470c115c875f9fd93eb6c71c190f30daa9d4001.json": "22af244d082f121c446b8058de3473d5a734f2367097d18eb4be95d7c1b209ad"
+  },
+  "protected_after": {
+    "artifacts\\real-final.json": "be6510d088b2ed846b6a7e80dd8859b115b91ef486c59c4757d78e0d93b3ccf1",
+    "artifacts\\exploratory-robustness.json": "390830adb41507591b32a5267d887d1fe958412ee1e6b93ca900a93b89efeaca",
+    "artifacts\\FINAL-41259bd28053720781875d0c8470c115c875f9fd93eb6c71c190f30daa9d4001.json": "22af244d082f121c446b8058de3473d5a734f2367097d18eb4be95d7c1b209ad"
+  },
+  "checks": [
+    {
+      "check": "dependencies",
+      "command": [
+        "C:\\Users\\zaman asif\\Downloads\\StockFlow\\StockFlow\\.venv-release-v3\\Scripts\\python.exe",
+        "-m",
+        "pip",
+        "check"
+      ],
+      "exit_code": 0,
+      "seconds": 3.431
+    },
+    {
+      "check": "unit_api",
+      "command": [
+        "C:\\Users\\zaman asif\\Downloads\\StockFlow\\StockFlow\\.venv-release-v3\\Scripts\\python.exe",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "exit_code": 0,
+      "seconds": 33.49,
+      "tests": 83
+    },
+    {
+      "check": "lint",
+      "command": [
+        "C:\\Users\\zaman asif\\Downloads\\StockFlow\\StockFlow\\.venv-release-v3\\Scripts\\python.exe",
+        "-m",
+        "ruff",
+        "check",
+        "app",
+        "scripts",
+        "tests",
+        "--select",
+        "F"
+      ],
+      "exit_code": 0,
+      "seconds": 1.847
+    },
+    {
+      "check": "compile",
+      "command": [
+        "C:\\Users\\zaman asif\\Downloads\\StockFlow\\StockFlow\\.venv-release-v3\\Scripts\\python.exe",
+        "-m",
+        "compileall",
+        "-q",
+        "app",
+        "scripts",
+        "tests"
+      ],
+      "exit_code": 0,
+      "seconds": 0.415
+    }
+  ],
+  "limits": "Local verification only; no cloud deployment, external users, live provider accuracy or business savings inferred."
+}

@@ -1,0 +1,447 @@
+{
+  "utc": "2026-11-21T06:16:27.201876+00:00",
+  "command": "python -m scripts.prepare_coverage --version v3a",
+  "canonical": "C:\\Users\\zaman asif\\Downloads\\StockFlow\\StockFlow\\data\\registry\\8ab15246-b0b7-44a0-b553-46b3434c5b06\\transactions.csv",
+  "dataset_sha256": "b2792ab819d26c2485ec9249ebc7c0e56a56cd02036754c8c46fa412d1f08173",
+  "protocol_sha256": "16df76804cba0ce14599372fe269fbcf406f5a81846a9dd0af181eaf941f4db1",
+  "original_workbook_sha256": "bcbe73b35f5b7babf197fb0cb983a11f5d9ff929078d4aa53d171b1f2df2e980",
+  "source_row_accounting": {
+    "rows": 1067366,
+    "sale_rows": 1041670,
+    "cancellation_rows": 19494,
+    "adjustment_rows": 3457,
+    "zero_price_rows": 6202,
+    "possible_duplicate_rows": 34339,
+    "duplicate_policy": "Flag only: identical invoice lines may be legitimate.",
+    "input_rows": 1067371,
+    "quarantined_rows": 5,
+    "retained_rows": 1067366,
+    "reason_counts": {
+      "negative_price": 5
+    },
+    "latest_day_may_be_partial": true,
+    "zero_fill_assumption": "zero recorded sales, not verified demand",
+    "missing_calendar_days": 135
+  },
+  "selection": {
+    "selection_start": "2009-12-01",
+    "selection_end": "2010-01-29",
+    "seed": 20261121,
+    "excluded_products": [
+      "20991",
+      "20993",
+      "21212",
+      "85099B",
+      "85123A"
+    ],
+    "eligible_products": 2673,
+    "identifier_rule": "five digits plus up to two letters; heuristic excludes manual/service codes",
+    "strata": [
+      {
+        "stratum": "low_sparse",
+        "eligible_products": 891,
+        "selected_products": 8,
+        "requested_products": 8,
+        "quota_shortfall": 0
+      },
+      {
+        "stratum": "low_dense",
+        "eligible_products": 0,
+        "selected_products": 0,
+        "requested_products": 8,
+        "quota_shortfall": 8
+      },
+      {
+        "stratum": "middle_sparse",
+        "eligible_products": 879,
+        "selected_products": 8,
+        "requested_products": 8,
+        "quota_shortfall": 0
+      },
+      {
+        "stratum": "middle_dense",
+        "eligible_products": 12,
+        "selected_products": 8,
+        "requested_products": 8,
+        "quota_shortfall": 0
+      },
+      {
+        "stratum": "high_sparse",
+        "eligible_products": 641,
+        "selected_products": 8,
+        "requested_products": 8,
+        "quota_shortfall": 0
+      },
+      {
+        "stratum": "high_dense",
+        "eligible_products": 250,
+        "selected_products": 8,
+        "requested_products": 8,
+        "quota_shortfall": 0
+      }
+    ],
+    "products": [
+      {
+        "sku": "90192",
+        "development_units": 11,
+        "recorded_sale_days": 9,
+        "zero_recorded_day_fraction": 0.85,
+        "first_sale": "2009-12-01",
+        "stratum": "low_sparse",
+        "selection_rank": "0005fd36f4d377fcba62614945e37209401b3e6641d0b2784a672037a5fc9cad"
+      },
+      {
+        "sku": "84508C",
+        "development_units": 14,
+        "recorded_sale_days": 7,
+        "zero_recorded_day_fraction": 0.8833333333333333,
+        "first_sale": "2009-12-04",
+        "stratum": "low_sparse",
+        "selection_rank": "011d956bb3f77e347c08a3b32754b2433f0d41ca19deb1fa5cd77ffbdea37fb6"
+      },
+      {
+        "sku": "85036A",
+        "development_units": 35,
+        "recorded_sale_days": 13,
+        "zero_recorded_day_fraction": 0.7833333333333333,
+        "first_sale": "2009-12-03",
+        "stratum": "low_sparse",
+        "selection_rank": "0152926a4ddebe5a883ccbfffa5dd7d97003f2674762be2b38822bc2f579bb74"
+      },
+      {
+        "sku": "90178A",
+        "development_units": 6,
+        "recorded_sale_days": 6,
+        "zero_recorded_day_fraction": 0.9,
+        "first_sale": "2009-12-01",
+        "stratum": "low_sparse",
+        "selection_rank": "024756de52aa81cf75e55bff8b8226d84b23b324e592f9dd92a30990fadd0f32"
+      },
+      {
+        "sku": "21736",
+        "development_units": 20,
+        "recorded_sale_days": 3,
+        "zero_recorded_day_fraction": 0.95,
+        "first_sale": "2009-12-04",
+        "stratum": "low_sparse",
+        "selection_rank": "0249caffd57b70f26a0b7a7aea2c5c809ea7584413571e60ccc05f7e70b32885"
+      },
+      {
+        "sku": "85106",
+        "development_units": 34,
+        "recorded_sale_days": 4,
+        "zero_recorded_day_fraction": 0.9333333333333333,
+        "first_sale": "2009-12-08",
+        "stratum": "low_sparse",
+        "selection_rank": "02ed1ae13072a402053799e479f7daa3b0d5e9c508130bd209f37161dbfdd31b"
+      },
+      {
+        "sku": "35233",
+        "development_units": 3,
+        "recorded_sale_days": 2,
+        "zero_recorded_day_fraction": 0.9666666666666667,
+        "first_sale": "2009-12-08",
+        "stratum": "low_sparse",
+        "selection_rank": "030a266e812d803f6a49390a07db3165428bd83f2c0d774d33696b2db522d12b"
+      },
+      {
+        "sku": "84709B",
+        "development_units": 28,
+        "recorded_sale_days": 11,
+        "zero_recorded_day_fraction": 0.8166666666666667,
+        "first_sale": "2009-12-01",
+        "stratum": "low_sparse",
+        "selection_rank": "030e4636c5a2005902dc30079884c995c0d8a84c8fe097aa6d660c32bbf70f3e"
+      },
+      {
+        "sku": "20705",
+        "development_units": 86,
+        "recorded_sale_days": 9,
+        "zero_recorded_day_fraction": 0.85,
+        "first_sale": "2009-12-07",
+        "stratum": "middle_sparse",
+        "selection_rank": "0002fafa6ba7cbd1a467b8cf6084525a7139d0e13cfba69a61eb77c8a78a095d"
+      },
+      {
+        "sku": "21039",
+        "development_units": 195,
+        "recorded_sale_days": 22,
+        "zero_recorded_day_fraction": 0.6333333333333333,
+        "first_sale": "2009-12-01",
+        "stratum": "middle_sparse",
+        "selection_rank": "0095b86dc97ecfbf80624c6108c8f796a701c8bd19d7a3305a3f0d8b1586841f"
+      },
+      {
+        "sku": "22222",
+        "development_units": 65,
+        "recorded_sale_days": 24,
+        "zero_recorded_day_fraction": 0.6,
+        "first_sale": "2009-12-01",
+        "stratum": "middle_sparse",
+        "selection_rank": "00991e5701cf548df6651a006733d680545f087d5720dcfae9f0152112a8be04"
+      },
+      {
+        "sku": "46776C",
+        "development_units": 108,
+        "recorded_sale_days": 11,
+        "zero_recorded_day_fraction": 0.8166666666666667,
+        "first_sale": "2009-12-10",
+        "stratum": "middle_sparse",
+        "selection_rank": "0129539709681d46756fe1a64eaa5c0d37e14a10611faf7104e3983a30e3c267"
+      },
+      {
+        "sku": "85128",
+        "development_units": 167,
+        "recorded_sale_days": 4,
+        "zero_recorded_day_fraction": 0.9333333333333333,
+        "first_sale": "2009-12-04",
+        "stratum": "middle_sparse",
+        "selection_rank": "0174d6f395c053aa7610cbc0fa3081eecd7d786448cfa3a14001646e8423dc2c"
+      },
+      {
+        "sku": "72802B",
+        "development_units": 140,
+        "recorded_sale_days": 22,
+        "zero_recorded_day_fraction": 0.6333333333333333,
+        "first_sale": "2009-12-01",
+        "stratum": "middle_sparse",
+        "selection_rank": "017a6a3d01eab5f00867ca3a2f9cdb713f32ddc6a82339c965beb6a774925368"
+      },
+      {
+        "sku": "22322",
+        "development_units": 144,
+        "recorded_sale_days": 14,
+        "zero_recorded_day_fraction": 0.7666666666666666,
+        "first_sale": "2009-12-02",
+        "stratum": "middle_sparse",
+        "selection_rank": "018193d312ac1880792791bbb8560f027877a6b0a75f6d2d4818783fb4b889ba"
+      },
+      {
+        "sku": "35096B",
+        "development_units": 113,
+        "recorded_sale_days": 15,
+        "zero_recorded_day_fraction": 0.75,
+        "first_sale": "2009-12-02",
+        "stratum": "middle_sparse",
+        "selection_rank": "019b31f1f7229551310f6346c1a83057b0fb85a0e3d44edc888d9464ee16d86c"
+      },
+      {
+        "sku": "21431",
+        "development_units": 187,
+        "recorded_sale_days": 30,
+        "zero_recorded_day_fraction": 0.5,
+        "first_sale": "2009-12-01",
+        "stratum": "middle_dense",
+        "selection_rank": "08cab3f29df4dab58ad9c1d085ea51024cfedaef34b3373ec98d7cbd9eb75a5a"
+      },
+      {
+        "sku": "20749",
+        "development_units": 165,
+        "recorded_sale_days": 30,
+        "zero_recorded_day_fraction": 0.5,
+        "first_sale": "2009-12-01",
+        "stratum": "middle_dense",
+        "selection_rank": "0f03b28b06cba0bbbc01a721bb6095591c7aa3fe1ba376828c7eddbd5fb58add"
+      },
+      {
+        "sku": "21756",
+        "development_units": 169,
+        "recorded_sale_days": 35,
+        "zero_recorded_day_fraction": 0.41666666666666663,
+        "first_sale": "2009-12-01",
+        "stratum": "middle_dense",
+        "selection_rank": "15b14bfcd2bd7b9b15ace6824773758d648cdd907dc40c8dfb55261d75acfba7"
+      },
+      {
+        "sku": "21624",
+        "development_units": 172,
+        "recorded_sale_days": 36,
+        "zero_recorded_day_fraction": 0.4,
+        "first_sale": "2009-12-01",
+        "stratum": "middle_dense",
+        "selection_rank": "1dcdbcc9c8db6810fa521bca93045ca5971371b7d9eab63187e77ab18d0cccd3"
+      },
+      {
+        "sku": "22215",
+        "development_units": 130,
+        "recorded_sale_days": 30,
+        "zero_recorded_day_fraction": 0.5,
+        "first_sale": "2009-12-01",
+        "stratum": "middle_dense",
+        "selection_rank": "428d33b54fb8ad4d0aa623960f4ca5cb78b83569589376af62065cb73060de55"
+      },
+      {
+        "sku": "21770",
+        "development_units": 182,
+        "recorded_sale_days": 31,
+        "zero_recorded_day_fraction": 0.4833333333333333,
+        "first_sale": "2009-12-01",
+        "stratum": "middle_dense",
+        "selection_rank": "697a72d52e04cfaa6063b4bf9dc461cd29b417726d4316fd107ba009631de679"
+      },
+      {
+        "sku": "79160",
+        "development_units": 179,
+        "recorded_sale_days": 33,
+        "zero_recorded_day_fraction": 0.44999999999999996,
+        "first_sale": "2009-12-01",
+        "stratum": "middle_dense",
+        "selection_rank": "7b7d562ed9de1b0f0bb62000f17ce6995b4a15525cf0b8dfa78af2cc507be663"
+      },
+      {
+        "sku": "22120",
+        "development_units": 131,
+        "recorded_sale_days": 33,
+        "zero_recorded_day_fraction": 0.44999999999999996,
+        "first_sale": "2009-12-01",
+        "stratum": "middle_dense",
+        "selection_rank": "bd2c32d93bd8c14ec0beda385cdedbd4760b338272c450f749d9a5d4ef0dc124"
+      },
+      {
+        "sku": "21983",
+        "development_units": 807,
+        "recorded_sale_days": 18,
+        "zero_recorded_day_fraction": 0.7,
+        "first_sale": "2009-12-02",
+        "stratum": "high_sparse",
+        "selection_rank": "0008d7f2a91b7093a4077c5fa1fb238056328b2d5626970de8e4cf1e517eceb3"
+      },
+      {
+        "sku": "20977",
+        "development_units": 297,
+        "recorded_sale_days": 26,
+        "zero_recorded_day_fraction": 0.5666666666666667,
+        "first_sale": "2009-12-01",
+        "stratum": "high_sparse",
+        "selection_rank": "005dd2c2190ad15b0230aa671de79c533ae9c1b3170305003ce753991a8387c3"
+      },
+      {
+        "sku": "22080",
+        "development_units": 464,
+        "recorded_sale_days": 29,
+        "zero_recorded_day_fraction": 0.5166666666666666,
+        "first_sale": "2009-12-01",
+        "stratum": "high_sparse",
+        "selection_rank": "00d885f5b15cbd48d407176b09c1c0129e8680661cea949b5adb4838282ba1bc"
+      },
+      {
+        "sku": "20652",
+        "development_units": 432,
+        "recorded_sale_days": 21,
+        "zero_recorded_day_fraction": 0.65,
+        "first_sale": "2009-12-01",
+        "stratum": "high_sparse",
+        "selection_rank": "025040255e6ec15bbe464ca745e934d433bd0030126a646163098eb9b3a103c4"
+      },
+      {
+        "sku": "22185",
+        "development_units": 287,
+        "recorded_sale_days": 26,
+        "zero_recorded_day_fraction": 0.5666666666666667,
+        "first_sale": "2009-12-01",
+        "stratum": "high_sparse",
+        "selection_rank": "02f535461b543b7b911d715ea033f3fe42fd879e3abdbbbce6040365b975f01a"
+      },
+      {
+        "sku": "20970",
+        "development_units": 367,
+        "recorded_sale_days": 26,
+        "zero_recorded_day_fraction": 0.5666666666666667,
+        "first_sale": "2009-12-01",
+        "stratum": "high_sparse",
+        "selection_rank": "036cf9238f3a185d617e6bf227dd8f45cf7a311a8c9e0e3e2d5ed3b90a47e93b"
+      },
+      {
+        "sku": "22287",
+        "development_units": 335,
+        "recorded_sale_days": 6,
+        "zero_recorded_day_fraction": 0.9,
+        "first_sale": "2009-12-03",
+        "stratum": "high_sparse",
+        "selection_rank": "04097a9e4e364b1f5ac272f6d91cf3e32635b02da5830ea7559640496ad15626"
+      },
+      {
+        "sku": "21746",
+        "development_units": 318,
+        "recorded_sale_days": 18,
+        "zero_recorded_day_fraction": 0.7,
+        "first_sale": "2009-12-01",
+        "stratum": "high_sparse",
+        "selection_rank": "0422288c77dee50dcb6c0387dabf86e9f5809dfe3d2cf295c8925724211731c5"
+      },
+      {
+        "sku": "21755",
+        "development_units": 653,
+        "recorded_sale_days": 40,
+        "zero_recorded_day_fraction": 0.33333333333333337,
+        "first_sale": "2009-12-01",
+        "stratum": "high_dense",
+        "selection_rank": "019597eeabcabd88020a9fa651d135a1b5791b728b430d0516308c96953b0463"
+      },
+      {
+        "sku": "21908",
+        "development_units": 1430,
+        "recorded_sale_days": 39,
+        "zero_recorded_day_fraction": 0.35,
+        "first_sale": "2009-12-01",
+        "stratum": "high_dense",
+        "selection_rank": "02f88dd1def577be09f1c64529e489741b08c540d3c70da2ddd0e8bbe410ba69"
+      },
+      {
+        "sku": "85014B",
+        "development_units": 2314,
+        "recorded_sale_days": 33,
+        "zero_recorded_day_fraction": 0.44999999999999996,
+        "first_sale": "2009-12-01",
+        "stratum": "high_dense",
+        "selection_rank": "063095184e255ade613cde94f79b5181351c4c5198fa1e607b70a14bb76dd087"
+      },
+      {
+        "sku": "84988",
+        "development_units": 547,
+        "recorded_sale_days": 31,
+        "zero_recorded_day_fraction": 0.4833333333333333,
+        "first_sale": "2009-12-01",
+        "stratum": "high_dense",
+        "selection_rank": "06484ac75474e2747c6bac6505e5d9c5e3c06dd9412483e5bd6a4a045e9da262"
+      },
+      {
+        "sku": "22122",
+        "development_units": 315,
+        "recorded_sale_days": 30,
+        "zero_recorded_day_fraction": 0.5,
+        "first_sale": "2009-12-01",
+        "stratum": "high_dense",
+        "selection_rank": "077cfad49f3e2bc1e19ba8ab702c61d92ea01aed809e5ed3dab58f1e10296b94"
+      },
+      {
+        "sku": "21164",
+        "development_units": 961,
+        "recorded_sale_days": 33,
+        "zero_recorded_day_fraction": 0.44999999999999996,
+        "first_sale": "2009-12-01",
+        "stratum": "high_dense",
+        "selection_rank": "07fee38902bd438907b9d7d951da2855ad716cb975428eb811be6a6004d5ffee"
+      },
+      {
+        "sku": "82483",
+        "development_units": 516,
+        "recorded_sale_days": 36,
+        "zero_recorded_day_fraction": 0.4,
+        "first_sale": "2009-12-01",
+        "stratum": "high_dense",
+        "selection_rank": "081c6bf734b3e68a5b19a64a3a9a93b4a16f4877610babb09674f0f18d941610"
+      },
+      {
+        "sku": "21407",
+        "development_units": 261,
+        "recorded_sale_days": 33,
+        "zero_recorded_day_fraction": 0.44999999999999996,
+        "first_sale": "2009-12-01",
+        "stratum": "high_dense",
+        "selection_rank": "08e40aadc6dc79129144fa4da59118d7c84d956db5653dfd13753b47cdc02957"
+      }
+    ],
+    "limitations": "First-60-day descriptive volume/density strata; pre-entry and missing dates are assumed zero recorded sales. Quotas are not filled from other strata."
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "command": "python -m unittest discover -s tests -v",
+  "exit_code": 0,
+  "tests": 56,
+  "seconds": 3.744,
+  "utc": "2026-11-20T15:42:50.075045+00:00",
+  "code_sha256": "5933699fca797181f12347835a8c17106e5b5a069632ca1267cb3db00971ea29",
+  "platform": "win32"
+}

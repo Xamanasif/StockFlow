@@ -1,0 +1,8 @@
+{
+  "kind": "synthetic_demo",
+  "source": "Seeded constructed invoice lines, not UCI or a real business",
+  "seed": 41,
+  "sha256": "ff61a518220f4241cee5ab1c5f801958087b1883da83e3428e7a982b59aa1118",
+  "currency": "GBP (demo)",
+  "inventory_cost_lead_time_data": "Scenario assumptions, not measured"
+}

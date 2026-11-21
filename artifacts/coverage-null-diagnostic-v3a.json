@@ -1,0 +1,13 @@
+{
+  "utc": "2026-11-21T06:34:35.432405+00:00",
+  "label": "Post-hoc arithmetic diagnostic, not a pre-specified sixth model or new tuned evaluation",
+  "study_sha256": "50037cf63d3096dd9fcd495908af025963ee3b5b498263130ae60bee6c850ab5",
+  "zero_forecast": {
+    "absolute_error": 10417.0,
+    "actual_units": 10417.0,
+    "observations": 3640,
+    "wape": 1,
+    "mae": 2.861813186813187
+  },
+  "all_five_tested_methods_exceed_zero_forecast_wape": true
+}

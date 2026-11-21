@@ -1,0 +1,9 @@
+Using Python: C:\Users\zaman asif\Downloads\StockFlow\StockFlow\.venv-release-v3\Scripts\python.exe
+INFO:     Started server process [19660]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:55521 (Press CTRL+C to quit)
+{"request_id": "ee53d34b-fdda-4983-8572-d1c5d8b00336", "run_id": null, "route": "/api/ready", "duration_ms": 127, "status": 200, "code_version": "1.0.0", "method_version": "weekday_mean-v1; replay-v1", "dataset_sha256": "ff61a518220f4241cee5ab1c5f801958087b1883da83e3428e7a982b59aa1118", "error_category": null}
+INFO:     127.0.0.1:55544 - "GET /api/ready HTTP/1.1" 200 OK
+{"request_id": "5b3d3d6a-7ba2-4573-961a-a268dac9e890", "run_id": null, "route": "static", "duration_ms": 49, "status": 200, "code_version": "1.0.0", "method_version": "weekday_mean-v1; replay-v1", "dataset_sha256": "ff61a518220f4241cee5ab1c5f801958087b1883da83e3428e7a982b59aa1118", "error_category": null}
+INFO:     127.0.0.1:55545 - "GET / HTTP/1.1" 200 OK

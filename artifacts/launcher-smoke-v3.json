@@ -1,0 +1,24 @@
+{
+  "utc": "2026-11-21T06:19:56.302413+00:00",
+  "status": "passed",
+  "command": [
+    "powershell",
+    "-NoProfile",
+    "-ExecutionPolicy",
+    "Bypass",
+    "-File",
+    "run.ps1",
+    "-Port",
+    "55521"
+  ],
+  "checks": [
+    "default interpreter dependency probing",
+    "readiness",
+    "dashboard"
+  ],
+  "ready": {
+    "ready": true,
+    "dataset_sha256": "ff61a518220f4241cee5ab1c5f801958087b1883da83e3428e7a982b59aa1118"
+  },
+  "owned_test_server_port_closed": true
+}

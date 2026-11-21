@@ -1,0 +1,16 @@
+INFO:     Started server process [32228]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:59951 (Press CTRL+C to quit)
+{"request_id": "23112aca-0767-4a9a-a8da-73b696968abc", "run_id": null, "route": "/api/ready", "duration_ms": 2294, "status": 200, "code_version": "1.0.0", "method_version": "weekday_mean-v1; replay-v1", "dataset_sha256": "ff61a518220f4241cee5ab1c5f801958087b1883da83e3428e7a982b59aa1118", "error_category": null}
+INFO:     127.0.0.1:59975 - "GET /api/ready HTTP/1.1" 200 OK
+{"request_id": "45bea3ce-547a-49cc-8496-5ac206c4103a", "run_id": null, "route": "static", "duration_ms": 625, "status": 200, "code_version": "1.0.0", "method_version": "weekday_mean-v1; replay-v1", "dataset_sha256": "ff61a518220f4241cee5ab1c5f801958087b1883da83e3428e7a982b59aa1118", "error_category": null}
+INFO:     127.0.0.1:59988 - "GET / HTTP/1.1" 200 OK
+{"request_id": "2b080de9-db06-44a0-9c30-99997dcae6d2", "run_id": null, "route": "static", "duration_ms": 4, "status": 200, "code_version": "1.0.0", "method_version": "weekday_mean-v1; replay-v1", "dataset_sha256": "ff61a518220f4241cee5ab1c5f801958087b1883da83e3428e7a982b59aa1118", "error_category": null}
+INFO:     127.0.0.1:59988 - "GET /workbench.js HTTP/1.1" 200 OK
+{"request_id": "134bd0f9-b855-482a-9ce4-c032ecd8aa01", "run_id": null, "route": "/api/overview", "duration_ms": 45, "status": 200, "code_version": "1.0.0", "method_version": "weekday_mean-v1; replay-v1", "dataset_sha256": "ff61a518220f4241cee5ab1c5f801958087b1883da83e3428e7a982b59aa1118", "error_category": null}
+INFO:     127.0.0.1:59988 - "GET /api/overview HTTP/1.1" 200 OK
+{"request_id": "12a4c2d4-81c3-41b8-8aad-b983ddcec83f", "run_id": null, "route": "static", "duration_ms": 5, "status": 404, "code_version": "1.0.0", "method_version": "weekday_mean-v1; replay-v1", "dataset_sha256": "ff61a518220f4241cee5ab1c5f801958087b1883da83e3428e7a982b59aa1118", "error_category": "client_error"}
+INFO:     127.0.0.1:59988 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+{"request_id": "b2585800-42d2-48ea-88be-21b66c955001", "run_id": null, "route": "/api/datasets", "duration_ms": 227, "status": 200, "code_version": "1.0.0", "method_version": "weekday_mean-v1; replay-v1", "dataset_sha256": "ff61a518220f4241cee5ab1c5f801958087b1883da83e3428e7a982b59aa1118", "error_category": null}
+INFO:     127.0.0.1:59988 - "GET /api/datasets HTTP/1.1" 200 OK

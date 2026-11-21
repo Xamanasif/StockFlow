@@ -1,0 +1,33 @@
+{
+  "utc": "2026-11-21T06:38:28.002176+00:00",
+  "code_sha256": "d51f317f434f7d3f9490745b837690fc3280c882348230c8580c17c47604764b",
+  "release_report": "artifacts\\releases\\20261121T063439963906Z\\report.json",
+  "clean_isolated_install_verified": true,
+  "tests_passed": 83,
+  "browser_checks_passed": 14,
+  "new_products": 40,
+  "weekly_folds": 13,
+  "product_days_per_method": 3640,
+  "actual_recorded_units_per_method": 10417,
+  "complete_model_product_pairing": true,
+  "prior_final_and_v2_evidence_preserved": true,
+  "forecast_readiness": "Not established: all five frozen methods exceed the post-hoc zero-forecast WAPE diagnostic on the expanded cohort",
+  "external_users_verified": false,
+  "remote_ci_run_verified": false,
+  "cloud_deployment_verified": false,
+  "owner_mastery_verified": false,
+  "artifacts": {
+    "artifacts/coverage-selection-v3.json": "c143efe1b7a7ce260ebb66d3cee31aa91b7bb1417b513f3f3c6bd797510fcdd5",
+    "artifacts/coverage-selection-v3a.json": "87dd77a553f1e06919d7e9747b535cd8035547e89773097278a4066b794ffc78",
+    "artifacts/coverage-study-v3a.json": "50037cf63d3096dd9fcd495908af025963ee3b5b498263130ae60bee6c850ab5",
+    "artifacts/coverage-null-diagnostic-v3a.json": "167c1b7992c3febe526a8b61608a514cb1b4dc6e73c84f96f406e8befc142a4f",
+    "artifacts/source-coverage-v3a.zip": "4fdeaf33cfd9ad8f205b7d6f3f68f53b9498dd8f3854bda95943b17518730371",
+    "artifacts\\releases\\20261121T063439963906Z\\report.json": "0da7d9cc752df15706d6f85f5d1b6f0c586c16919d5a375111c55d17fda3b74e",
+    "artifacts/browser.json": "36e98f44b21bc3e7a4785a5b1689c4d5d1f3ed4a3af9d7200a3fe3466e9a8050",
+    "artifacts/launcher-smoke-v3.json": "132126a7fcf6b22812f22701131a68ab38e629021ad9b01f4c8f325234a0510d",
+    "artifacts/clean-install-v3.txt": "d5cf43350273fccbeac1583c5746b1c08a4c890acbd1e404e12ab85f4e4c2f3f",
+    "docs/COVERAGE_PROTOCOL_V3A.md": "16df76804cba0ce14599372fe269fbcf406f5a81846a9dd0af181eaf941f4db1",
+    "run.ps1": "de1c1044f5dc78ec54fe3624ae99d2e49b25de9e9e5aa0582b4605a843090987",
+    ".github/workflows/verify.yml": "1fcfff4d992067fa37f679a907cd4f6189cbf706c80da7dd32b806f03a37461f"
+  }
+}

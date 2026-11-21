@@ -1,0 +1,166 @@
+{
+  "status": "passed",
+  "dataset_sha256": "41259bd28053720781875d0c8470c115c875f9fd93eb6c71c190f30daa9d4001",
+  "products": [
+    "85123A",
+    "20993",
+    "21212",
+    "85099B",
+    "20991"
+  ],
+  "cutoff": "2011-12-09",
+  "checks": [
+    "real overview",
+    "real forecast",
+    "MILP proposal",
+    "exact saved snapshot",
+    "local confirmation",
+    "self-contained report"
+  ],
+  "plan": {
+    "id": "68d3133f-3115-46e1-be1f-0611b9f6097c",
+    "sha256": "5ccfac35ec188eed4bfda1de9fbf1df6d1d99f5262a498c6faa5facdc4a5bfbe",
+    "policy": "static_milp_weighted_covered_units",
+    "optimality_claim": "static specified objective only",
+    "spent_pence": 10000,
+    "remaining_budget_pence": 0,
+    "occupied_units_after_plan": 110,
+    "iteration_limit_reached": false,
+    "rows": [
+      {
+        "sku": "85123A",
+        "expected_sales_units": 2476.5,
+        "on_hand": 10,
+        "on_order": 0,
+        "requested_units": 2468,
+        "order_units": 100,
+        "unit_cost_pence": 100,
+        "pack": 2,
+        "first_order_minimum": 4,
+        "priority": 1,
+        "spend_pence": 10000,
+        "uncovered_target_units": 2368,
+        "reason": "Static weighted coverage optimum; review uncovered target"
+      }
+    ],
+    "limitations": [
+      "Assumed inventory, costs and lead times; not historical stock measurements.",
+      "Static aggregate coverage, not a time-phased stockout simulator.",
+      "On-order arrivals assumed available in the planning coverage window.",
+      "Capacity measured in units, not volume; no supplier reliability model.",
+      "Priority-weighted coverage is not profit or guaranteed service level."
+    ],
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "mip_gap": 0.0,
+    "objective_covered_units": 100.0,
+    "assumptions": {
+      "budget_pence": 10000,
+      "capacity_units": 1000,
+      "horizon_days": 14,
+      "items": [
+        {
+          "sku": "85123A",
+          "unit_cost_pence": 100,
+          "on_hand": 10,
+          "on_order": 0,
+          "lead_days": 7,
+          "pack": 2,
+          "moq": 4,
+          "priority": 1
+        }
+      ]
+    },
+    "assumptions_hash": "4d68a0fe01a499d553d2f91806e759760f76118e59d97d51913955fedc3c48d4",
+    "provenance": {
+      "version": "8ec95337-a8e5-4dbf-a378-7132a5241145",
+      "kind": "real_historical_transactions",
+      "source_url": "https://archive.ics.uci.edu/dataset/502/online+retail+ii",
+      "license": "CC BY 4.0",
+      "attribution": "Chen, D. (2012). Online Retail II. DOI:10.24432/C5CG6D",
+      "download_or_import_utc": "2026-11-20T15:31:42.380087+00:00",
+      "source_file_sha256": "41259bd28053720781875d0c8470c115c875f9fd93eb6c71c190f30daa9d4001",
+      "sha256": "41259bd28053720781875d0c8470c115c875f9fd93eb6c71c190f30daa9d4001",
+      "currency": "GBP (original UCI); scenario costs independently assumed",
+      "audit": {
+        "rows": 13429,
+        "sale_rows": 13164,
+        "cancellation_rows": 249,
+        "adjustment_rows": 5,
+        "zero_price_rows": 16,
+        "possible_duplicate_rows": 369,
+        "duplicate_policy": "Flag only: identical invoice lines may be legitimate.",
+        "input_rows": 13429,
+        "quarantined_rows": 0,
+        "retained_rows": 13429,
+        "reason_counts": {},
+        "latest_day_may_be_partial": true,
+        "zero_fill_assumption": "zero recorded sales, not verified demand",
+        "missing_calendar_days": 135
+      },
+      "raw_privacy": "Original local snapshot may contain customer identifiers; never served by API.",
+      "derivation": "Five SKUs selected on first 60 days, first sale by day 14; full original historical dates retained",
+      "original_workbook_sha256": "bcbe73b35f5b7babf197fb0cb983a11f5d9ff929078d4aa53d171b1f2df2e980",
+      "official_archive_sha256": "572e36277c2390fbfde10664750731e0a86f55e33470d91919085f0408e67bfb",
+      "original_row_accounting": {
+        "rows": 1067366,
+        "sale_rows": 1041670,
+        "cancellation_rows": 19494,
+        "adjustment_rows": 3457,
+        "zero_price_rows": 6202,
+        "possible_duplicate_rows": 34339,
+        "duplicate_policy": "Flag only: identical invoice lines may be legitimate.",
+        "input_rows": 1067371,
+        "quarantined_rows": 5,
+        "retained_rows": 1067366,
+        "reason_counts": {
+          "negative_price": 5
+        },
+        "latest_day_may_be_partial": true,
+        "zero_fill_assumption": "zero recorded sales, not verified demand",
+        "missing_calendar_days": 135
+      },
+      "original_quarantine_rows": 5,
+      "original_quarantine_sha256": "53095d44c4e1c3f17671dbff8f648b1082fc165d4e7a06b6db3bf2644456ae58",
+      "products": [
+        "85123A",
+        "20993",
+        "21212",
+        "85099B",
+        "20991"
+      ]
+    },
+    "assumption_field_provenance": {
+      "currency": "GBP",
+      "fields": {
+        "budget_pence": "user-supplied scenario assumption",
+        "capacity_units": "user-supplied scenario assumption",
+        "horizon_days": "user-supplied scenario assumption"
+      },
+      "items": {
+        "85123A": {
+          "sku": "user-supplied scenario assumption",
+          "unit_cost_pence": "user-supplied scenario assumption",
+          "on_hand": "user-supplied scenario assumption",
+          "on_order": "user-supplied scenario assumption",
+          "lead_days": "user-supplied scenario assumption",
+          "pack": "user-supplied scenario assumption",
+          "moq": "user-supplied scenario assumption",
+          "priority": "user-supplied scenario assumption"
+        }
+      }
+    },
+    "cutoff": "2011-12-09",
+    "created_utc": "2026-11-20T15:43:44.685401+00:00",
+    "forecast_method": "weekday_mean",
+    "code_version": "1.0.0",
+    "code_sha256": "269a75c6b5c83186356cde9d423683d10be0bc86fc8b3aa70590cf6ff5ab5462",
+    "status": "proposal_only_not_purchase_order"
+  },
+  "review": {
+    "run_id": "68d3133f-3115-46e1-be1f-0611b9f6097c",
+    "sha256": "5ccfac35ec188eed4bfda1de9fbf1df6d1d99f5262a498c6faa5facdc4a5bfbe",
+    "status": "locally_confirmed_no_external_order"
+  },
+  "code_sha256": "269a75c6b5c83186356cde9d423683d10be0bc86fc8b3aa70590cf6ff5ab5462"
+}

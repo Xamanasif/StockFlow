@@ -1,0 +1,19 @@
+{
+  "recorded_utc": "2026-11-20T15:45:09.677555+00:00",
+  "code_sha256": "269a75c6b5c83186356cde9d423683d10be0bc86fc8b3aa70590cf6ff5ab5462",
+  "protocol_sha256": "f07cde187a288d16f6c9705b9820c104407c52dee8ce35d5e5c4e3e3aff1f12b",
+  "seed": 2026,
+  "live_groq_exercised": false,
+  "remote_ci_exercised": false,
+  "artifacts": {
+    "artifacts/test-results.json": "478c5641003be1b795feb3a030e7534a092f42db1e7de2ad9bc489ac08b0de81",
+    "artifacts/browser.json": "640c80d240f16544f18dee052b23affe7de01fbafe71dbef7d0245882e5e3e30",
+    "artifacts/real-api.json": "79cd99e35744a5b5b3a2e04f3d3df0b792a2210c698e04ab9699e336972e494f",
+    "artifacts/real-import.json": "4efe655907dd09e8bd9a2556c13dbaee54472163ec03282fe7da1276bee090a2",
+    "artifacts/development.json": "07bbb4c70a27eae109d6757b78b0dbe39a1f7f489b4c71037b4898e096b4ccd7",
+    "artifacts/real-development.json": "bd18bbd4261eed3962322a564fc6881df64be87ba68e1da206253ecef0759e94",
+    "artifacts/real-final.json": "be6510d088b2ed846b6a7e80dd8859b115b91ef486c59c4757d78e0d93b3ccf1",
+    "artifacts/source-at-final.zip": "440daa77cda1aacdd350d0f42a1325bc8c2efc450ad9618baeba0103a2cb02c1",
+    "artifacts/engineering-checks.json": "b9ca226e47f856d45250800a54372a5cfab43bc23fbc3c1bc9658432c5459185"
+  }
+}

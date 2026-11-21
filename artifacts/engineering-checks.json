@@ -1,0 +1,27 @@
+{
+  "utc": "2026-11-20T15:45:09.677555+00:00",
+  "platform": "win32",
+  "source_sha256": "269a75c6b5c83186356cde9d423683d10be0bc86fc8b3aa70590cf6ff5ab5462",
+  "checks": [
+    {
+      "command": "-m ruff check app scripts tests --select F",
+      "exit_code": 0,
+      "output": "All checks passed!\n"
+    },
+    {
+      "command": "-m compileall -q app scripts tests",
+      "exit_code": 0,
+      "output": ""
+    },
+    {
+      "command": "run.ps1 occupied-port check",
+      "exit_code": 1,
+      "expected_rejection": true,
+      "port": 61270
+    },
+    {
+      "check": "numerical source identical to archived final version",
+      "passed": true
+    }
+  ]
+}

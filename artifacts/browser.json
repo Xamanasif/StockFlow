@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "checks": [
+    "registered dataset selection",
+    "quality and provenance",
+    "empty history state",
+    "reconciled SQL analytics",
+    "exploratory study and mismatched-source warning",
+    "broader cohort coverage and scaled-error evidence",
+    "product evidence chart",
+    "assumptions and proposal",
+    "policy cross comparison",
+    "version-bound local confirmation",
+    "offline cited assistant",
+    "revisited reviewed history",
+    "validation error",
+    "mobile rendering"
+  ],
+  "javascript_errors": [],
+  "command": "python -m scripts.browser_test",
+  "utc": "2026-11-21T06:36:03.836140+00:00",
+  "code_sha256": "d51f317f434f7d3f9490745b837690fc3280c882348230c8580c17c47604764b",
+  "dataset_sha256": "ff61a518220f4241cee5ab1c5f801958087b1883da83e3428e7a982b59aa1118",
+  "scope": "headless msedge on Windows; synthetic data; no live Groq"
+}

@@ -1,0 +1,158 @@
+{
+  "label": "synthetic demo; assumed procurement and stock",
+  "invoice_rows": [
+    {
+      "invoice": "0118-1",
+      "sku": "SKU-001",
+      "date": "2024-04-28",
+      "quantity": "11",
+      "unit_price": "6",
+      "is_cancellation": "False",
+      "is_adjustment": "False",
+      "is_sale": "True"
+    },
+    {
+      "invoice": "0119-1",
+      "sku": "SKU-001",
+      "date": "2024-04-29",
+      "quantity": "4",
+      "unit_price": "6",
+      "is_cancellation": "False",
+      "is_adjustment": "False",
+      "is_sale": "True"
+    },
+    {
+      "invoice": "C0042",
+      "sku": "SKU-001",
+      "date": "2024-03-01",
+      "quantity": "-2",
+      "unit_price": "6",
+      "is_cancellation": "True",
+      "is_adjustment": "False",
+      "is_sale": "False"
+    }
+  ],
+  "last_seven_calendar_units": {
+    "2024-04-23": 11.0,
+    "2024-04-24": 4.0,
+    "2024-04-25": 10.0,
+    "2024-04-26": 4.0,
+    "2024-04-27": 8.0,
+    "2024-04-28": 11.0,
+    "2024-04-29": 4.0
+  },
+  "forecast_21_days": [
+    {
+      "date": "2024-04-30",
+      "units": 5.625
+    },
+    {
+      "date": "2024-05-01",
+      "units": 4.625
+    },
+    {
+      "date": "2024-05-02",
+      "units": 6.125
+    },
+    {
+      "date": "2024-05-03",
+      "units": 5.25
+    },
+    {
+      "date": "2024-05-04",
+      "units": 10.625
+    },
+    {
+      "date": "2024-05-05",
+      "units": 10.625
+    },
+    {
+      "date": "2024-05-06",
+      "units": 5.75
+    },
+    {
+      "date": "2024-05-07",
+      "units": 5.625
+    },
+    {
+      "date": "2024-05-08",
+      "units": 4.625
+    },
+    {
+      "date": "2024-05-09",
+      "units": 6.125
+    },
+    {
+      "date": "2024-05-10",
+      "units": 5.25
+    },
+    {
+      "date": "2024-05-11",
+      "units": 10.625
+    },
+    {
+      "date": "2024-05-12",
+      "units": 10.625
+    },
+    {
+      "date": "2024-05-13",
+      "units": 5.75
+    },
+    {
+      "date": "2024-05-14",
+      "units": 5.625
+    },
+    {
+      "date": "2024-05-15",
+      "units": 4.625
+    },
+    {
+      "date": "2024-05-16",
+      "units": 6.125
+    },
+    {
+      "date": "2024-05-17",
+      "units": 5.25
+    },
+    {
+      "date": "2024-05-18",
+      "units": 10.625
+    },
+    {
+      "date": "2024-05-19",
+      "units": 10.625
+    },
+    {
+      "date": "2024-05-20",
+      "units": 5.75
+    }
+  ],
+  "forecast_sum": 145.875,
+  "assumptions": {
+    "sku": "SKU-001",
+    "unit_cost_pence": 150,
+    "on_hand": 12,
+    "on_order": 0,
+    "lead_days": 7,
+    "pack": 6,
+    "moq": 12,
+    "priority": 1
+  },
+  "allocation": {
+    "sku": "SKU-001",
+    "expected_sales_units": 145.875,
+    "on_hand": 12,
+    "on_order": 0,
+    "requested_units": 138,
+    "order_units": 66,
+    "unit_cost_pence": 150,
+    "pack": 6,
+    "first_order_minimum": 12,
+    "priority": 1.0,
+    "spend_pence": 9900,
+    "uncovered_target_units": 72,
+    "reason": "Target partly or wholly uncovered under budget, capacity or lot constraints"
+  },
+  "dataset_sha256": "ff61a518220f4241cee5ab1c5f801958087b1883da83e3428e7a982b59aa1118",
+  "run_id": "43a5fa37-bff8-4bc8-9d83-bf546f8746f6"
+}

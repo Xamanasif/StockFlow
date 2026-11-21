@@ -1,0 +1,23 @@
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    import importlib.util,sys; sys.exit(0 if all(importlib.util.find_spec(m) for m in [fastapi,pandas,numpy,scipy,sklearn,httpx,uvicorn,openpyxl]) else 1)
+                                                                                       ^^^^^^^
+NameError: name 'fastapi' is not defined
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    import importlib.util,sys; sys.exit(0 if all(importlib.util.find_spec(m) for m in [fastapi,pandas,numpy,scipy,sklearn,httpx,uvicorn,openpyxl]) else 1)
+                                                                                       ^^^^^^^
+NameError: name 'fastapi' is not defined
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    import importlib.util,sys; sys.exit(0 if all(importlib.util.find_spec(m) for m in [fastapi,pandas,numpy,scipy,sklearn,httpx,uvicorn,openpyxl]) else 1)
+                                                                                       ^^^^^^^
+NameError: name 'fastapi' is not defined
+No interpreter has the required modules. Create .venv and install requirements.lock; see README.md.
+At C:\Users\zaman asif\Downloads\StockFlow\StockFlow\run.ps1:22 char:21
++ ... !$Python) { throw 'No interpreter has the required modules. Create .v ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (No interpreter ... see README.md.:String) [], RuntimeException
+    + FullyQualifiedErrorId : No interpreter has the required modules. Create .venv and install requirements.lock; see 
+    README.md.
+ 

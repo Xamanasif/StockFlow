@@ -1,0 +1,11 @@
+# Data card
+
+Official source: https://archive.ics.uci.edu/dataset/502/online+retail+ii . Attribution: Chen, D. (2012), Online Retail II, UCI Machine Learning Repository, DOI 10.24432/C5CG6D. Official page checked during this build; license CC BY 4.0, https://creativecommons.org/licenses/by/4.0/ . Source schema contains invoice, stock code, description, quantity, timestamp, unit price, customer identifier and country. Historical coverage and exact downloaded bytes are recorded in import metadata, not inferred from filename.
+
+Canonical retained columns: invoice, SKU, normalized calendar date, integer quantity and sale price. Customer IDs, description and country are dropped from canonical and quarantine tables. The preserved original workbook contains source fields, including customer identifiers: keep it local and restrict access. It is not served by the API. Raw snapshots are excluded from Git. No attempt is made to reidentify customers.
+
+Positive quantity/price lines excluding C-prefixed invoices become sales. Cancellation and nonpositive-quantity adjustments remain visible but are not demand or simulated returns. Negative prices, malformed dates, nonfinite/fractional quantities and missing identifiers have explicit quarantine reason codes; publishing rejected rows requires --quarantine. Duplicates remain and are flagged. Row accounting must reconcile input = retained + quarantine; reason counts overlap.
+
+Demo uses seeded synthetic transactions and has separate hashes. Real research uses up to five products ranked by units during the first 60 days, requiring entry within the first 14 days. This is a manageable, volume-biased subset, not representative of every retailer SKU. Latest day is potentially partial and excluded from research. Missing days are zero recorded sales only under the stated coverage assumption. Last observed sale is not proof of product exit; first sale is not actual launch date.
+
+Transactions contain no procurement costs, stock balances, supplier lead times, opening days or lost sales. Scenario fields carry explicit assumed provenance and GBP minor units; never equate sale price with purchase cost. Checksums prove byte identity, not source correctness.

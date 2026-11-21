@@ -1,0 +1,420 @@
+{
+  "utc": "2026-11-21T05:43:40.080621+00:00",
+  "code_sha256": "7e4c22343d5ed78e5b3075d0464e47501738815fb67977d979f75233eeaa5085",
+  "command": "python -m scripts.build_analytics --output artifacts/demo-analytics-v2.json",
+  "load": {
+    "run_id": "6cb2c15d62bd15700d13cd913aa198152e7786e75099c315e339272d19ad5d28",
+    "status": "created",
+    "accounting": {
+      "input_canonical_rows": 602,
+      "loaded_rows": 562,
+      "excluded_later_rows": 40,
+      "positive_sale_units": 6142,
+      "selection_start": "2024-01-01",
+      "scope": "selected canonical products, through development cutoff only",
+      "zero_fill": "zero recorded sales assumed after first sale, not verified zero demand",
+      "value_units": "approximate GBP observed sales value; not procurement cost/profit"
+    }
+  },
+  "report": {
+    "run_id": "6cb2c15d62bd15700d13cd913aa198152e7786e75099c315e339272d19ad5d28",
+    "dataset_sha256": "ff61a518220f4241cee5ab1c5f801958087b1883da83e3428e7a982b59aa1118",
+    "cutoff": "2024-04-21",
+    "accounting": {
+      "input_canonical_rows": 602,
+      "loaded_rows": 562,
+      "excluded_later_rows": 40,
+      "positive_sale_units": 6142,
+      "selection_start": "2024-01-01",
+      "scope": "selected canonical products, through development cutoff only",
+      "zero_fill": "zero recorded sales assumed after first sale, not verified zero demand",
+      "value_units": "approximate GBP observed sales value; not procurement cost/profit"
+    },
+    "totals": {
+      "transaction_rows": 562,
+      "sale_rows": 560,
+      "cancellation_rows": 1,
+      "adjustment_rows": 1
+    },
+    "products": [
+      {
+        "run_id": "6cb2c15d62bd15700d13cd913aa198152e7786e75099c315e339272d19ad5d28",
+        "sku": "SKU-005",
+        "first_sale": "2024-01-01",
+        "last_sale": "2024-04-21",
+        "calendar_days": 112,
+        "recorded_units": 1692,
+        "assumed_zero_days": 0,
+        "approximate_observed_sale_value_gbp": 16920.0,
+        "development_units": 904,
+        "abc_class": "A"
+      },
+      {
+        "run_id": "6cb2c15d62bd15700d13cd913aa198152e7786e75099c315e339272d19ad5d28",
+        "sku": "SKU-004",
+        "first_sale": "2024-01-01",
+        "last_sale": "2024-04-21",
+        "calendar_days": 112,
+        "recorded_units": 1451,
+        "assumed_zero_days": 0,
+        "approximate_observed_sale_value_gbp": 13059.0,
+        "development_units": 771,
+        "abc_class": "A"
+      },
+      {
+        "run_id": "6cb2c15d62bd15700d13cd913aa198152e7786e75099c315e339272d19ad5d28",
+        "sku": "SKU-003",
+        "first_sale": "2024-01-01",
+        "last_sale": "2024-04-21",
+        "calendar_days": 112,
+        "recorded_units": 1208,
+        "assumed_zero_days": 0,
+        "approximate_observed_sale_value_gbp": 9664.0,
+        "development_units": 643,
+        "abc_class": "A"
+      },
+      {
+        "run_id": "6cb2c15d62bd15700d13cd913aa198152e7786e75099c315e339272d19ad5d28",
+        "sku": "SKU-002",
+        "first_sale": "2024-01-01",
+        "last_sale": "2024-04-21",
+        "calendar_days": 112,
+        "recorded_units": 993,
+        "assumed_zero_days": 0,
+        "approximate_observed_sale_value_gbp": 6951.0,
+        "development_units": 515,
+        "abc_class": "A"
+      },
+      {
+        "run_id": "6cb2c15d62bd15700d13cd913aa198152e7786e75099c315e339272d19ad5d28",
+        "sku": "SKU-001",
+        "first_sale": "2024-01-01",
+        "last_sale": "2024-04-21",
+        "calendar_days": 112,
+        "recorded_units": 798,
+        "assumed_zero_days": 0,
+        "approximate_observed_sale_value_gbp": 4788.0,
+        "development_units": 437,
+        "abc_class": "B"
+      }
+    ],
+    "recent_daily": [
+      {
+        "run_id": "6cb2c15d62bd15700d13cd913aa198152e7786e75099c315e339272d19ad5d28",
+        "sku": "SKU-001",
+        "day": "2024-04-21",
+        "recorded_units": 14,
+        "observed_sale_value_gbp": 84.0,
+        "assumed_zero": 0,
+        "preceding_seven_day_units": 52
+      },
+      {
+        "run_id": "6cb2c15d62bd15700d13cd913aa198152e7786e75099c315e339272d19ad5d28",
+        "sku": "SKU-002",
+        "day": "2024-04-21",
+        "recorded_units": 13,
+        "observed_sale_value_gbp": 91.0,
+        "assumed_zero": 0,
+        "preceding_seven_day_units": 60
+      },
+      {
+        "run_id": "6cb2c15d62bd15700d13cd913aa198152e7786e75099c315e339272d19ad5d28",
+        "sku": "SKU-003",
+        "day": "2024-04-21",
+        "recorded_units": 10,
+        "observed_sale_value_gbp": 80.0,
+        "assumed_zero": 0,
+        "preceding_seven_day_units": 67
+      },
+      {
+        "run_id": "6cb2c15d62bd15700d13cd913aa198152e7786e75099c315e339272d19ad5d28",
+        "sku": "SKU-004",
+        "day": "2024-04-21",
+        "recorded_units": 18,
+        "observed_sale_value_gbp": 162.0,
+        "assumed_zero": 0,
+        "preceding_seven_day_units": 86
+      },
+      {
+        "run_id": "6cb2c15d62bd15700d13cd913aa198152e7786e75099c315e339272d19ad5d28",
+        "sku": "SKU-005",
+        "day": "2024-04-21",
+        "recorded_units": 15,
+        "observed_sale_value_gbp": 150.0,
+        "assumed_zero": 0,
+        "preceding_seven_day_units": 98
+      },
+      {
+        "run_id": "6cb2c15d62bd15700d13cd913aa198152e7786e75099c315e339272d19ad5d28",
+        "sku": "SKU-001",
+        "day": "2024-04-20",
+        "recorded_units": 10,
+        "observed_sale_value_gbp": 60.0,
+        "assumed_zero": 0,
+        "preceding_seven_day_units": 55
+      },
+      {
+        "run_id": "6cb2c15d62bd15700d13cd913aa198152e7786e75099c315e339272d19ad5d28",
+        "sku": "SKU-002",
+        "day": "2024-04-20",
+        "recorded_units": 11,
+        "observed_sale_value_gbp": 77.0,
+        "assumed_zero": 0,
+        "preceding_seven_day_units": 62
+      },
+      {
+        "run_id": "6cb2c15d62bd15700d13cd913aa198152e7786e75099c315e339272d19ad5d28",
+        "sku": "SKU-003",
+        "day": "2024-04-20",
+        "recorded_units": 17,
+        "observed_sale_value_gbp": 136.0,
+        "assumed_zero": 0,
+        "preceding_seven_day_units": 64
+      },
+      {
+        "run_id": "6cb2c15d62bd15700d13cd913aa198152e7786e75099c315e339272d19ad5d28",
+        "sku": "SKU-004",
+        "day": "2024-04-20",
+        "recorded_units": 16,
+        "observed_sale_value_gbp": 144.0,
+        "assumed_zero": 0,
+        "preceding_seven_day_units": 84
+      },
+      {
+        "run_id": "6cb2c15d62bd15700d13cd913aa198152e7786e75099c315e339272d19ad5d28",
+        "sku": "SKU-005",
+        "day": "2024-04-20",
+        "recorded_units": 19,
+        "observed_sale_value_gbp": 190.0,
+        "assumed_zero": 0,
+        "preceding_seven_day_units": 95
+      },
+      {
+        "run_id": "6cb2c15d62bd15700d13cd913aa198152e7786e75099c315e339272d19ad5d28",
+        "sku": "SKU-001",
+        "day": "2024-04-19",
+        "recorded_units": 9,
+        "observed_sale_value_gbp": 54.0,
+        "assumed_zero": 0,
+        "preceding_seven_day_units": 51
+      },
+      {
+        "run_id": "6cb2c15d62bd15700d13cd913aa198152e7786e75099c315e339272d19ad5d28",
+        "sku": "SKU-002",
+        "day": "2024-04-19",
+        "recorded_units": 7,
+        "observed_sale_value_gbp": 49.0,
+        "assumed_zero": 0,
+        "preceding_seven_day_units": 61
+      },
+      {
+        "run_id": "6cb2c15d62bd15700d13cd913aa198152e7786e75099c315e339272d19ad5d28",
+        "sku": "SKU-003",
+        "day": "2024-04-19",
+        "recorded_units": 8,
+        "observed_sale_value_gbp": 64.0,
+        "assumed_zero": 0,
+        "preceding_seven_day_units": 66
+      },
+      {
+        "run_id": "6cb2c15d62bd15700d13cd913aa198152e7786e75099c315e339272d19ad5d28",
+        "sku": "SKU-004",
+        "day": "2024-04-19",
+        "recorded_units": 8,
+        "observed_sale_value_gbp": 72.0,
+        "assumed_zero": 0,
+        "preceding_seven_day_units": 85
+      },
+      {
+        "run_id": "6cb2c15d62bd15700d13cd913aa198152e7786e75099c315e339272d19ad5d28",
+        "sku": "SKU-005",
+        "day": "2024-04-19",
+        "recorded_units": 11,
+        "observed_sale_value_gbp": 110.0,
+        "assumed_zero": 0,
+        "preceding_seven_day_units": 97
+      },
+      {
+        "run_id": "6cb2c15d62bd15700d13cd913aa198152e7786e75099c315e339272d19ad5d28",
+        "sku": "SKU-001",
+        "day": "2024-04-18",
+        "recorded_units": 5,
+        "observed_sale_value_gbp": 30.0,
+        "assumed_zero": 0,
+        "preceding_seven_day_units": 51
+      },
+      {
+        "run_id": "6cb2c15d62bd15700d13cd913aa198152e7786e75099c315e339272d19ad5d28",
+        "sku": "SKU-002",
+        "day": "2024-04-18",
+        "recorded_units": 7,
+        "observed_sale_value_gbp": 49.0,
+        "assumed_zero": 0,
+        "preceding_seven_day_units": 61
+      },
+      {
+        "run_id": "6cb2c15d62bd15700d13cd913aa198152e7786e75099c315e339272d19ad5d28",
+        "sku": "SKU-003",
+        "day": "2024-04-18",
+        "recorded_units": 6,
+        "observed_sale_value_gbp": 48.0,
+        "assumed_zero": 0,
+        "preceding_seven_day_units": 70
+      },
+      {
+        "run_id": "6cb2c15d62bd15700d13cd913aa198152e7786e75099c315e339272d19ad5d28",
+        "sku": "SKU-004",
+        "day": "2024-04-18",
+        "recorded_units": 16,
+        "observed_sale_value_gbp": 144.0,
+        "assumed_zero": 0,
+        "preceding_seven_day_units": 82
+      },
+      {
+        "run_id": "6cb2c15d62bd15700d13cd913aa198152e7786e75099c315e339272d19ad5d28",
+        "sku": "SKU-005",
+        "day": "2024-04-18",
+        "recorded_units": 13,
+        "observed_sale_value_gbp": 130.0,
+        "assumed_zero": 0,
+        "preceding_seven_day_units": 98
+      },
+      {
+        "run_id": "6cb2c15d62bd15700d13cd913aa198152e7786e75099c315e339272d19ad5d28",
+        "sku": "SKU-001",
+        "day": "2024-04-17",
+        "recorded_units": 4,
+        "observed_sale_value_gbp": 24.0,
+        "assumed_zero": 0,
+        "preceding_seven_day_units": 53
+      },
+      {
+        "run_id": "6cb2c15d62bd15700d13cd913aa198152e7786e75099c315e339272d19ad5d28",
+        "sku": "SKU-002",
+        "day": "2024-04-17",
+        "recorded_units": 9,
+        "observed_sale_value_gbp": 63.0,
+        "assumed_zero": 0,
+        "preceding_seven_day_units": 58
+      },
+      {
+        "run_id": "6cb2c15d62bd15700d13cd913aa198152e7786e75099c315e339272d19ad5d28",
+        "sku": "SKU-003",
+        "day": "2024-04-17",
+        "recorded_units": 7,
+        "observed_sale_value_gbp": 56.0,
+        "assumed_zero": 0,
+        "preceding_seven_day_units": 70
+      },
+      {
+        "run_id": "6cb2c15d62bd15700d13cd913aa198152e7786e75099c315e339272d19ad5d28",
+        "sku": "SKU-004",
+        "day": "2024-04-17",
+        "recorded_units": 11,
+        "observed_sale_value_gbp": 99.0,
+        "assumed_zero": 0,
+        "preceding_seven_day_units": 83
+      },
+      {
+        "run_id": "6cb2c15d62bd15700d13cd913aa198152e7786e75099c315e339272d19ad5d28",
+        "sku": "SKU-005",
+        "day": "2024-04-17",
+        "recorded_units": 14,
+        "observed_sale_value_gbp": 140.0,
+        "assumed_zero": 0,
+        "preceding_seven_day_units": 100
+      },
+      {
+        "run_id": "6cb2c15d62bd15700d13cd913aa198152e7786e75099c315e339272d19ad5d28",
+        "sku": "SKU-001",
+        "day": "2024-04-16",
+        "recorded_units": 3,
+        "observed_sale_value_gbp": 18.0,
+        "assumed_zero": 0,
+        "preceding_seven_day_units": 52
+      },
+      {
+        "run_id": "6cb2c15d62bd15700d13cd913aa198152e7786e75099c315e339272d19ad5d28",
+        "sku": "SKU-002",
+        "day": "2024-04-16",
+        "recorded_units": 7,
+        "observed_sale_value_gbp": 49.0,
+        "assumed_zero": 0,
+        "preceding_seven_day_units": 57
+      },
+      {
+        "run_id": "6cb2c15d62bd15700d13cd913aa198152e7786e75099c315e339272d19ad5d28",
+        "sku": "SKU-003",
+        "day": "2024-04-16",
+        "recorded_units": 12,
+        "observed_sale_value_gbp": 96.0,
+        "assumed_zero": 0,
+        "preceding_seven_day_units": 66
+      },
+      {
+        "run_id": "6cb2c15d62bd15700d13cd913aa198152e7786e75099c315e339272d19ad5d28",
+        "sku": "SKU-004",
+        "day": "2024-04-16",
+        "recorded_units": 10,
+        "observed_sale_value_gbp": 90.0,
+        "assumed_zero": 0,
+        "preceding_seven_day_units": 88
+      },
+      {
+        "run_id": "6cb2c15d62bd15700d13cd913aa198152e7786e75099c315e339272d19ad5d28",
+        "sku": "SKU-005",
+        "day": "2024-04-16",
+        "recorded_units": 10,
+        "observed_sale_value_gbp": 100.0,
+        "assumed_zero": 0,
+        "preceding_seven_day_units": 100
+      },
+      {
+        "run_id": "6cb2c15d62bd15700d13cd913aa198152e7786e75099c315e339272d19ad5d28",
+        "sku": "SKU-001",
+        "day": "2024-04-15",
+        "recorded_units": 9,
+        "observed_sale_value_gbp": 54.0,
+        "assumed_zero": 0,
+        "preceding_seven_day_units": 53
+      },
+      {
+        "run_id": "6cb2c15d62bd15700d13cd913aa198152e7786e75099c315e339272d19ad5d28",
+        "sku": "SKU-002",
+        "day": "2024-04-15",
+        "recorded_units": 7,
+        "observed_sale_value_gbp": 49.0,
+        "assumed_zero": 0,
+        "preceding_seven_day_units": 58
+      },
+      {
+        "run_id": "6cb2c15d62bd15700d13cd913aa198152e7786e75099c315e339272d19ad5d28",
+        "sku": "SKU-003",
+        "day": "2024-04-15",
+        "recorded_units": 5,
+        "observed_sale_value_gbp": 40.0,
+        "assumed_zero": 0,
+        "preceding_seven_day_units": 70
+      },
+      {
+        "run_id": "6cb2c15d62bd15700d13cd913aa198152e7786e75099c315e339272d19ad5d28",
+        "sku": "SKU-004",
+        "day": "2024-04-15",
+        "recorded_units": 11,
+        "observed_sale_value_gbp": 99.0,
+        "assumed_zero": 0,
+        "preceding_seven_day_units": 87
+      },
+      {
+        "run_id": "6cb2c15d62bd15700d13cd913aa198152e7786e75099c315e339272d19ad5d28",
+        "sku": "SKU-005",
+        "day": "2024-04-15",
+        "recorded_units": 14,
+        "observed_sale_value_gbp": 140.0,
+        "assumed_zero": 0,
+        "preceding_seven_day_units": 100
+      }
+    ],
+    "limitations": "Development-only selected-product mart. Zero-fill assumed. ABC uses first-60-day units within the selected subset. Sale value is descriptive and approximate; it is not profit."
+  }
+}

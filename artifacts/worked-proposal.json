@@ -1,0 +1,226 @@
+{
+  "id": "43a5fa37-bff8-4bc8-9d83-bf546f8746f6",
+  "sha256": "394fed457674558076150f4e5436c50b971e663adee06997eec17a9d727f5d47",
+  "assumption_field_provenance": {
+    "currency": "GBP",
+    "fields": {
+      "budget_pence": "user-supplied scenario assumption",
+      "capacity_units": "user-supplied scenario assumption",
+      "horizon_days": "user-supplied scenario assumption"
+    },
+    "items": {
+      "SKU-001": {
+        "lead_days": "user-supplied scenario assumption",
+        "moq": "user-supplied scenario assumption",
+        "on_hand": "user-supplied scenario assumption",
+        "on_order": "user-supplied scenario assumption",
+        "pack": "user-supplied scenario assumption",
+        "priority": "user-supplied scenario assumption",
+        "sku": "user-supplied scenario assumption",
+        "unit_cost_pence": "user-supplied scenario assumption"
+      },
+      "SKU-002": {
+        "lead_days": "user-supplied scenario assumption",
+        "moq": "user-supplied scenario assumption",
+        "on_hand": "user-supplied scenario assumption",
+        "on_order": "user-supplied scenario assumption",
+        "pack": "user-supplied scenario assumption",
+        "priority": "user-supplied scenario assumption",
+        "sku": "user-supplied scenario assumption",
+        "unit_cost_pence": "user-supplied scenario assumption"
+      },
+      "SKU-003": {
+        "lead_days": "user-supplied scenario assumption",
+        "moq": "user-supplied scenario assumption",
+        "on_hand": "user-supplied scenario assumption",
+        "on_order": "user-supplied scenario assumption",
+        "pack": "user-supplied scenario assumption",
+        "priority": "user-supplied scenario assumption",
+        "sku": "user-supplied scenario assumption",
+        "unit_cost_pence": "user-supplied scenario assumption"
+      },
+      "SKU-004": {
+        "lead_days": "user-supplied scenario assumption",
+        "moq": "user-supplied scenario assumption",
+        "on_hand": "user-supplied scenario assumption",
+        "on_order": "user-supplied scenario assumption",
+        "pack": "user-supplied scenario assumption",
+        "priority": "user-supplied scenario assumption",
+        "sku": "user-supplied scenario assumption",
+        "unit_cost_pence": "user-supplied scenario assumption"
+      },
+      "SKU-005": {
+        "lead_days": "user-supplied scenario assumption",
+        "moq": "user-supplied scenario assumption",
+        "on_hand": "user-supplied scenario assumption",
+        "on_order": "user-supplied scenario assumption",
+        "pack": "user-supplied scenario assumption",
+        "priority": "user-supplied scenario assumption",
+        "sku": "user-supplied scenario assumption",
+        "unit_cost_pence": "user-supplied scenario assumption"
+      }
+    }
+  },
+  "assumptions": {
+    "budget_pence": 10000,
+    "capacity_units": 500,
+    "horizon_days": 14,
+    "items": [
+      {
+        "lead_days": 7,
+        "moq": 12,
+        "on_hand": 12,
+        "on_order": 0,
+        "pack": 6,
+        "priority": 1.0,
+        "sku": "SKU-001",
+        "unit_cost_pence": 150
+      },
+      {
+        "lead_days": 7,
+        "moq": 12,
+        "on_hand": 12,
+        "on_order": 0,
+        "pack": 6,
+        "priority": 1.0,
+        "sku": "SKU-002",
+        "unit_cost_pence": 200
+      },
+      {
+        "lead_days": 7,
+        "moq": 12,
+        "on_hand": 12,
+        "on_order": 0,
+        "pack": 6,
+        "priority": 1.0,
+        "sku": "SKU-003",
+        "unit_cost_pence": 250
+      },
+      {
+        "lead_days": 7,
+        "moq": 12,
+        "on_hand": 12,
+        "on_order": 0,
+        "pack": 6,
+        "priority": 1.0,
+        "sku": "SKU-004",
+        "unit_cost_pence": 300
+      },
+      {
+        "lead_days": 7,
+        "moq": 12,
+        "on_hand": 12,
+        "on_order": 0,
+        "pack": 6,
+        "priority": 1.0,
+        "sku": "SKU-005",
+        "unit_cost_pence": 350
+      }
+    ]
+  },
+  "assumptions_hash": "900c38da6fcfc7cdd35093306dd3c37ccb8a0b9f80b948213efb8f7e35acbf7d",
+  "code_sha256": "d5dd6b26308ae0908a58701f670f95d9d2db947dbab1a461a15d434893fc35db",
+  "code_version": "1.0.0",
+  "created_utc": "2026-11-20T15:35:56.478924+00:00",
+  "cutoff": "2024-04-29",
+  "forecast_method": "weekday_mean",
+  "iteration_limit_reached": false,
+  "limitations": [
+    "Assumed inventory, costs and lead times; not historical stock measurements.",
+    "Static aggregate coverage, not a time-phased stockout simulator.",
+    "On-order arrivals assumed available in the planning coverage window.",
+    "Capacity measured in units, not volume; no supplier reliability model.",
+    "Priority-weighted coverage is not profit or guaranteed service level."
+  ],
+  "occupied_units_after_plan": 126,
+  "optimality_claim": false,
+  "policy": "greedy_priority_weighted_coverage_per_penny",
+  "provenance": {
+    "currency": "GBP (demo)",
+    "inventory_cost_lead_time_data": "Scenario assumptions, not measured",
+    "kind": "synthetic_demo",
+    "seed": 41,
+    "sha256": "ff61a518220f4241cee5ab1c5f801958087b1883da83e3428e7a982b59aa1118",
+    "source": "Seeded constructed invoice lines, not UCI or a real business"
+  },
+  "remaining_budget_pence": 100,
+  "rows": [
+    {
+      "expected_sales_units": 145.875,
+      "first_order_minimum": 12,
+      "on_hand": 12,
+      "on_order": 0,
+      "order_units": 66,
+      "pack": 6,
+      "priority": 1.0,
+      "reason": "Target partly or wholly uncovered under budget, capacity or lot constraints",
+      "requested_units": 138,
+      "sku": "SKU-001",
+      "spend_pence": 9900,
+      "uncovered_target_units": 72,
+      "unit_cost_pence": 150
+    },
+    {
+      "expected_sales_units": 186.75,
+      "first_order_minimum": 12,
+      "on_hand": 12,
+      "on_order": 0,
+      "order_units": 0,
+      "pack": 6,
+      "priority": 1.0,
+      "reason": "Target partly or wholly uncovered under budget, capacity or lot constraints",
+      "requested_units": 180,
+      "sku": "SKU-002",
+      "spend_pence": 0,
+      "uncovered_target_units": 180,
+      "unit_cost_pence": 200
+    },
+    {
+      "expected_sales_units": 225.375,
+      "first_order_minimum": 12,
+      "on_hand": 12,
+      "on_order": 0,
+      "order_units": 0,
+      "pack": 6,
+      "priority": 1.0,
+      "reason": "Target partly or wholly uncovered under budget, capacity or lot constraints",
+      "requested_units": 216,
+      "sku": "SKU-003",
+      "spend_pence": 0,
+      "uncovered_target_units": 216,
+      "unit_cost_pence": 250
+    },
+    {
+      "expected_sales_units": 269.625,
+      "first_order_minimum": 12,
+      "on_hand": 12,
+      "on_order": 0,
+      "order_units": 0,
+      "pack": 6,
+      "priority": 1.0,
+      "reason": "Target partly or wholly uncovered under budget, capacity or lot constraints",
+      "requested_units": 258,
+      "sku": "SKU-004",
+      "spend_pence": 0,
+      "uncovered_target_units": 258,
+      "unit_cost_pence": 300
+    },
+    {
+      "expected_sales_units": 316.5,
+      "first_order_minimum": 12,
+      "on_hand": 12,
+      "on_order": 0,
+      "order_units": 0,
+      "pack": 6,
+      "priority": 1.0,
+      "reason": "Target partly or wholly uncovered under budget, capacity or lot constraints",
+      "requested_units": 306,
+      "sku": "SKU-005",
+      "spend_pence": 0,
+      "uncovered_target_units": 306,
+      "unit_cost_pence": 350
+    }
+  ],
+  "spent_pence": 9900,
+  "status": "proposal_only_not_purchase_order"
+}
